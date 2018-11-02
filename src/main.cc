@@ -4,5 +4,5 @@ using namespace std;
 
 int main()
 {
-    cout << "Sample test\n";   
+    cout << "Sample test run\n";   
 }
