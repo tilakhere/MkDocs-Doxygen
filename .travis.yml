@@ -5,10 +5,16 @@ language: cpp
 addons:
   apt:
       update: true
+      
+addons:
+  apt:
+    packages:
+      - doxygen
     
   sources:
         - ubuntu-toolchain-r-test
   packages:
+        - doxygen
 
 env:
     global:
