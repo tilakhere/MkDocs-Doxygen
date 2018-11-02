@@ -9,8 +9,11 @@ sudo cmake --version
 echo "python version"
 python3 --version
 
+echo "installing pip"
+sudo apt install python3-pip
+
 echo "installing mkdocs"
-sudo python3 -m pip install mkdocs==1.0.4 mkdocs-material pymdown-extensions pygments
+sudo pip3 install mkdocs==1.0.4 mkdocs-material pymdown-extensions pygments
 
 echo "mkdocs version"
 mkdocs --version
