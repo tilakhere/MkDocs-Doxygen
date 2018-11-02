@@ -7,9 +7,9 @@ echo "sudo cmake version:"
 sudo cmake --version
 
 echo "installing mkdocs"
-sudo pip install mkdocs
+sudo pip install mkdocs mkdocs-material pymdown-extensions pygments
 
-echo "mkdocsa version"
+echo "mkdocs version"
 mkdocs --version
 
 echo "installing sample..."
