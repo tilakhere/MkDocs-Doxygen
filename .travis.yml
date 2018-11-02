@@ -1,20 +1,18 @@
 dist: trusty
 sudo: required
 language: cpp
+python: 3.6.6
   
 addons:
   apt:
       update: true
-      
-addons:
-  apt:
-    packages:
-      - doxygen
+            
+      packages:
+        - doxygen
     
   sources:
         - ubuntu-toolchain-r-test
-  packages:
-        - doxygen
+
 
 env:
     global:
