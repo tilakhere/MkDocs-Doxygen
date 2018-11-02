@@ -5,7 +5,7 @@ nav:
     - API:
         - C++: api/c/
 theme:
-    name: readthedocs
+    name: material
     highlightjs: true
     hljs_style: Hybrid 
     hljs_languages:

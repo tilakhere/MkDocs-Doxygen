@@ -12,5 +12,5 @@ then
     cd ..
 
     echo "Building mkdocs"
-    mkdocs build --verbose --clean
+    mkdocs build --verbose --clean --strict
 fi
