@@ -9,6 +9,7 @@ addons:
             
       packages:
         - doxygen
+        - graphviz
     
   sources:
         - ubuntu-toolchain-r-test
