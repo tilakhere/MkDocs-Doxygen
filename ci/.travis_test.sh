@@ -1,8 +1,6 @@
 echo "running sample.."
 ./build/sample
 
-TRAVIS_BRANCH='master'
-
 if [ "$TRAVIS_BRANCH" = 'master' ]
 then
     echo "building doxygen docs"
