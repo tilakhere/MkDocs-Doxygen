@@ -6,6 +6,9 @@ cmake --version
 echo "sudo cmake version:"
 sudo cmake --version
 
+echo "python version"
+python3 --version
+
 echo "installing mkdocs"
 sudo pip install mkdocs
 
