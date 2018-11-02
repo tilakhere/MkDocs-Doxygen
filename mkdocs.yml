@@ -1,0 +1,11 @@
+site_name: Site
+nav:
+    - Home: index.md
+    - About: about.md
+    - API:
+        - C++: api/c/
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - c++

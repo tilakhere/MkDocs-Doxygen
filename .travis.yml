@@ -1,0 +1,21 @@
+dist: trusty
+sudo: required
+language: cpp
+  
+addons:
+  apt:
+      update: true
+    
+  sources:
+        - ubuntu-toolchain-r-test
+  packages:
+
+env:
+    global:
+    - VERBOSE=1
+    
+install: 
+    - sh ci/.travis_install.sh
+
+script: sh ci/.travis_test.sh 
+
