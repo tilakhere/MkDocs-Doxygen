@@ -18,7 +18,7 @@ env:
     global:
     - VERBOSE=1
     
-install: 
+install:
     - sh ci/.travis_install.sh
 
 script: sh ci/.travis_test.sh 

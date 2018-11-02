@@ -6,6 +6,9 @@ cmake --version
 echo "sudo cmake version:"
 sudo cmake --version
 
+echo "installing mkdocs"
+pip install mkdocs
+
 echo "installing sample..."
 mkdir build;
 cd build; pwd 
