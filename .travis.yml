@@ -1,7 +1,6 @@
 dist: trusty
 sudo: required
 language: cpp
-python: 3.6.6
   
 addons:
   apt:
